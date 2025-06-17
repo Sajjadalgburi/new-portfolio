@@ -49,8 +49,7 @@ const BlurFade = ({
           duration,
           ease: "easeOut",
         }}
-        className={className}
-      >
+        className={className}>
         {children}
       </motion.div>
     </AnimatePresence>
