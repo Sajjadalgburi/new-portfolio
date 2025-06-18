@@ -20,6 +20,7 @@ const slugs = [
   "visualstudiocode",
   "graphql",
   "supabase",
+  "n8n",
 ];
 
 export function TechStack() {
