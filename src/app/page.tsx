@@ -3,6 +3,7 @@ import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
+import { TechStack } from "@/components/TeckStack";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
@@ -94,40 +95,12 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section id="certifications">
-        <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 7}>
-            <h2 className="text-xl font-bold">Certifications</h2>
-          </BlurFade>
-          {DATA.certifications.map((cert, id) => (
-            <BlurFade key={id} delay={BLUR_FADE_DELAY * 8 + id * 0.05}>
-              <ResumeCard
-                key={id}
-                href={cert.credUrl}
-                logoUrl={cert.logoUrl}
-                altText={cert.name}
-                title={cert.name}
-                period={`${cert.issued}`}
-              />
-            </BlurFade>
-          ))}
-        </div>
-      </section>
-      <section id="skills">
-        {/* <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Skills</h2>
-          </BlurFade>
-          <div className="flex flex-wrap gap-1">
-            {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
-              </BlurFade>
-            ))}
-          </div>
-        </div> */}
 
-        {/* <TechStack /> */}
+      <section id="skills">
+        <BlurFade delay={BLUR_FADE_DELAY * 9}>
+          <h2 className="text-xl font-bold">Skills</h2>
+          <TechStack />
+        </BlurFade>
       </section>
       <section id="projects">
         <div className="space-y-12 w-full py-12">
@@ -167,6 +140,25 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
+        </div>
+      </section>
+      <section id="certifications">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 7}>
+            <h2 className="text-xl font-bold">Certifications</h2>
+          </BlurFade>
+          {DATA.certifications.map((cert, id) => (
+            <BlurFade key={id} delay={BLUR_FADE_DELAY * 8 + id * 0.05}>
+              <ResumeCard
+                key={id}
+                href={cert.credUrl}
+                logoUrl={cert.logoUrl}
+                altText={cert.name}
+                title={cert.name}
+                period={`${cert.issued}`}
+              />
+            </BlurFade>
+          ))}
         </div>
       </section>
       <section id="contact">
