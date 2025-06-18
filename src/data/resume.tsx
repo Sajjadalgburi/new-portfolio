@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { Newspaper } from "lucide-react";
 
 export const DATA = {
   name: "Sajjad Algburi",
@@ -8,27 +9,11 @@ export const DATA = {
   location: "Calgary, AB",
   locationLink: "https://www.google.com/maps/place/calgary",
   description:
-    "A 19-year old Full Stack Engineer. I love building things and helping people",
+    "Full Stack Engineer passionate about building impactful products and helping others. Experienced in modern web technologies and AI integrations.",
   summary:
-    "In 2023, I made the decision to enroll in a coding bootcamp—and it turned out to be one of the best choices I've ever made. Since then, I've connected with many talented individuals and had the opportunity to build a variety of exciting projects.",
+    "After enrolling in a coding bootcamp in 2023, I connected with talented peers and built a range of exciting projects. My journey has been driven by curiosity, collaboration, and a desire to solve real-world problems with technology.",
   avatarUrl: "/me-2.png",
-  skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
-    "MongoDB",
-    "Postgres",
-    "Jest",
-    "Express",
-    "CSS",
-    "Supabase",
-    "TailwindCSS",
-    "Firebase",
-    "HTML",
-    "n8n",
-  ],
+
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
@@ -49,11 +34,17 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
-      email: {
+      Resume: {
+        name: "Resume",
+        url: "/resume.pdf",
+        icon: Newspaper,
+        navbar: true,
+      },
+      Email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:sajjadalgburi.dev@gmail.com",
         icon: Icons.email,
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -70,7 +61,7 @@ export const DATA = {
       start: "Jan 2025",
       end: "June 2025",
       description:
-        "Built and deployed AI automations using Next.js, TypeScript, and LLMs to streamline client workflows, reducing manual tasks by 40% and lowering operational costs",
+        "Developed and deployed AI automations using custom code and low-code tools (n8n), streamlining client workflows, reducing manual tasks by 40%, and lowering operational costs.",
     },
     {
       company: "Outreach AI",
@@ -83,7 +74,7 @@ export const DATA = {
       start: "Aug 2024",
       end: "Jan 2025",
       description:
-        "Developed a Next.js and TypeScript based SaaS platform that auto-generates tailored outreach content from joblistings, increasing conversions and user growth.",
+        "Built the frontend + backend and integrated AI models for a platform that generates personalized outreach messages and cover letters, enhancing user engagement and efficiency.",
     },
     {
       company: "Upwork Contractor",
@@ -96,14 +87,14 @@ export const DATA = {
       start: "Dec 2023",
       end: "Aug 2024",
       description:
-        "Developed and deployed high-performance, mobile-friendly websites using React, Next.js, and TypeScript, collaborating with designers and integrating tools like Google Ads to boost SEO and revenue.",
+        "Collaborated with diverse clients to design and develop high-performance, mobile-responsive web applications using React, Next.js, and TypeScript. Delivered custom backend (nodejs + express) solutions tailored to business needs, ensuring fast load times, seamless user experiences, and scalable architectures.",
     },
   ],
   education: [
     {
       school: "University of Toronto - Bootcamp",
       href: "https://www.utoronto.ca/",
-      degree: "Certification",
+      degree: "Certificate",
       logoUrl:
         "https://media.licdn.com/dms/image/v2/C4D0BAQHX-foiyEDxpw/company-logo_200_200/company-logo_200_200/0/1639421285702/university_of_toronto_logo?e=1755734400&v=beta&t=rWXrKTU6udfTe8hvVsqlJcV-3IpDRlcPoXRAwwB9WFE",
       start: "Nov 2023",
@@ -129,7 +120,6 @@ export const DATA = {
         "https://media.licdn.com/dms/image/v2/C4D0BAQEjPhvpXpXOHw/company-logo_200_200/company-logo_200_200/0/1631336133392?e=1755734400&v=beta&t=yAA2B3t4o0YWghztGbfhjPImwDrncBgDGOHjqzRAIAU",
       issued: "March 2025",
     },
-
     {
       org: "Apollo GraphQL",
       credUrl:
@@ -147,10 +137,10 @@ export const DATA = {
       dates: "May 2025 - June 2025",
       active: true,
       description:
-        "Building a platform that allows users to practice coding interviews with AI. Users can select a topic, and the AI will generate questions and provide feedback on their answers",
+        "A platform for practicing coding interviews with AI-generated questions and instant feedback. Users select topics and receive tailored interview experiences.",
       technologies: [
         "Next.js",
-        "Typescript",
+        "TypeScript",
         "Firebase",
         "TailwindCSS",
         "Shadcn UI",
@@ -178,10 +168,10 @@ export const DATA = {
       dates: "April 2025 - May 2025",
       active: true,
       description:
-        "Developed a full-stack news application with React.js that displays global trending news and integrates AI to analyze article bias and generate summaries.",
+        "Full-stack news app displaying global trending news, with AI-powered article bias analysis and summary generation.",
       technologies: [
         "React",
-        "Typescript",
+        "TypeScript",
         "MongoDB",
         "TailwindCSS",
         "Shadcn UI",
@@ -214,7 +204,7 @@ export const DATA = {
         "Upload a photo of your ingredients and let AI craft personalized recipes. Transform everyday ingredients into extraordinary dishes.",
       technologies: [
         "Next.js",
-        "Typescript",
+        "TypeScript",
         "Supabase",
         "TailwindCSS",
         "Shadcn UI",
@@ -241,10 +231,10 @@ export const DATA = {
       dates: "Jan 2025",
       active: true,
       description:
-        "Personalized workout plans tailored to your fitness goals and preferences. This was my first AI project, although it is not as advanced as my other projects, it was a great learning experience.",
+        "Personalized workout plans tailored to your fitness goals and preferences. My first AI project, providing a valuable learning experience.",
       technologies: [
         "Next.js",
-        "Typescript",
+        "TypeScript",
         "Supabase",
         "TailwindCSS",
         "Shadcn UI",
