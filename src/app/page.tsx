@@ -4,6 +4,7 @@ import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { TechStack } from "@/components/TeckStack";
+import { Testemonials } from "@/components/Testemonials";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
@@ -95,7 +96,6 @@ export default function Page() {
           ))}
         </div>
       </section>
-
       <section id="skills">
         <BlurFade delay={BLUR_FADE_DELAY * 9}>
           <h2 className="text-xl font-bold">Skills</h2>
@@ -103,7 +103,7 @@ export default function Page() {
         </BlurFade>
       </section>
       <section id="projects">
-        <div className="space-y-12 w-full py-12">
+        <div className="space-y-12 w-full">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -160,6 +160,12 @@ export default function Page() {
             </BlurFade>
           ))}
         </div>
+      </section>{" "}
+      <section id="testimonials">
+        <BlurFade delay={BLUR_FADE_DELAY * 9}>
+          <h2 className="text-xl font-bold">Testimonials</h2>
+          <Testemonials />
+        </BlurFade>
       </section>
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
