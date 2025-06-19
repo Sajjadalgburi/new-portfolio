@@ -63,7 +63,7 @@ const ReviewCard = ({
       rel="noopener noreferrer" // Security best practice
       href={link || "#"} // Use the provided link or fallback to "#"
       className={cn(
-        "relative h-full w-fit sm:w-full cursor-pointer overflow-hidden rounded-xl border p-4",
+        "relative h-full w-full cursor-pointer overflow-hidden rounded-xl border p-4",
         // light styles
         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
         // dark styles
@@ -85,19 +85,32 @@ const ReviewCard = ({
 
 export function Testemonials() {
   return (
-    <div className="relative flex h-[500px] w-full flex-row items-center justify-center overflow-hidden">
-      <Marquee pauseOnHover vertical className="[--duration:20s]">
-        {firstRow.map((review) => (
-          <ReviewCard key={review.username} link={review.link} {...review} />
-        ))}
-      </Marquee>
-      <Marquee reverse pauseOnHover vertical className="[--duration:20s]">
-        {secondRow.map((review) => (
-          <ReviewCard key={review.username} link={review.link} {...review} />
-        ))}
-      </Marquee>
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-1/4 bg-gradient-to-b from-background"></div>
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-background"></div>
+    <div className="relative flex h-[550px] flex-row items-center justify-center overflow-hidden">
+      <div className="hidden sm:flex absolute inset-0 z-10 items-center justify-center">
+        <Marquee pauseOnHover vertical className="[--duration:20s]">
+          {firstRow.map((review) => (
+            <ReviewCard key={review.username} link={review.link} {...review} />
+          ))}
+        </Marquee>
+        <Marquee reverse pauseOnHover vertical className="[--duration:20s]">
+          {secondRow.map((review) => (
+            <ReviewCard key={review.username} link={review.link} {...review} />
+          ))}
+        </Marquee>
+        <div className="pointer-events-none absolute inset-x-0 top-0 h-1/4 bg-gradient-to-b from-background"></div>
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-background"></div>
+      </div>
+
+      <div className="flex sm:hidden absolute inset-0 z-10 items-center justify-center">
+        <Marquee reverse pauseOnHover vertical className="[--duration:20s]">
+          {reviews.map((review) => (
+            <ReviewCard key={review.username} link={review.link} {...review} />
+          ))}
+        </Marquee>
+
+        <div className="pointer-events-none absolute inset-x-0 top-0 h-1/4 bg-gradient-to-b from-background"></div>
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-background"></div>
+      </div>
     </div>
   );
 }
