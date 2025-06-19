@@ -20,13 +20,49 @@ export const metadata: Metadata = {
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
+  keywords: [
+    "Full-stack eningeer",
+    "Full-stack developer",
+    "Fullstack Engineer",
+    "Fullstack Developer",
+    "Software Engineer",
+    "Web Developer",
+    "Frontend Developer",
+    "Backend Developer",
+    "Software Development",
+    "Web Development",
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "Tailwind CSS",
+    "React",
+    "Next.js",
+    "Freelancer",
+  ],
   openGraph: {
-    title: `${DATA.name}`,
+    title: `${DATA.name} – Full-stack Engineer`,
     description: DATA.description,
     url: DATA.url,
-    siteName: `${DATA.name}`,
+
+    siteName: `${DATA.name} portfolio`,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: `${DATA.url}/me-2.png`,
+        width: 1200,
+        height: 630,
+        alt: `${DATA.name} - ${DATA.description}`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${DATA.name} – Full-stack Developer`,
+    description: DATA.description,
+    site: "@Sajjadalgburi",
+    images: [`${DATA.url}/me-2.png`],
   },
   robots: {
     index: true,
@@ -39,14 +75,18 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  twitter: {
-    title: `${DATA.name}`,
-    card: "summary_large_image",
-  },
   verification: {
     google: "",
     yandex: "",
   },
+  alternates: {
+    canonical: DATA.url,
+  },
+  themeColor: "#ffff",
+  colorScheme: "dark light",
+  authors: [{ name: DATA.name, url: `${DATA.url}` }],
+  publisher: DATA.name,
+  creator: DATA.name,
 };
 
 export default function RootLayout({
