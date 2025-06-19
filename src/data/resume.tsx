@@ -1,6 +1,7 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import { Newspaper } from "lucide-react";
+import { Airplay, Video } from "lucide-react";
 
 export const DATA = {
   name: "Sajjad Algburi",
@@ -132,6 +133,29 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "AI Receptionist",
+      href: "https://www.loom.com/share/6e9a3168f21649b6b5bdc368ef5aefea?sid=f0c6a582-ae92-44f1-8bf0-f045ecedf8cf",
+      dates: "May 2025 - June 2025",
+      active: true,
+      description:
+        "Revolutionizing Dental Appointments with Sarah! An AI agent that simplifies booking dental appointments by understanding user preferences and automating the scheduling process. Also, follows secure HIPAA compliance standards.",
+      technologies: ["Retell AI", "TypeScript", "n8n", "Airtable", "Node.js"],
+      links: [
+        {
+          type: "Video",
+          href: "https://www.loom.com/share/6e9a3168f21649b6b5bdc368ef5aefea?sid=f0c6a582-ae92-44f1-8bf0-f045ecedf8cf",
+          icon: <Video className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Sajjadalgburi",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/sarah.png",
+      video: "",
+    },
+    {
       title: "Interview Pal",
       href: "https://drive.google.com/file/d/1szn73VL_cuMHY3MirBCbhMf3JufhJhfg/view",
       dates: "May 2025 - June 2025",
@@ -149,9 +173,9 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
+          type: "Video",
           href: "https://drive.google.com/file/d/1szn73VL_cuMHY3MirBCbhMf3JufhJhfg/view",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Video className="size-3" />,
         },
         {
           type: "Source",
@@ -182,9 +206,9 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
+          type: "Video",
           href: "https://drive.google.com/file/d/1WX62CmU2zTO7L5pFUM452zN7G2CRMkPe/view",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Video className="size-3" />,
         },
         {
           type: "Source",
@@ -254,6 +278,140 @@ export const DATA = {
       ],
       image: "/yoga.jpg",
       video: "",
+    },
+  ],
+  more_projects: [
+    {
+      title: "Scale Surge",
+      dates: "June 1st - 7th, 2025",
+      location: "United States, Illinois",
+      description:
+        "Developed an SEO friendly website for an LLC company using Next.js, TypeScript, and TailwindCSS. The project focused on enhancing the company's online presence and improving search engine visibility.",
+      image:
+        "https://media.licdn.com/dms/image/v2/D560BAQEI75J4fhEjkQ/company-logo_200_200/B56Zcocp5zGQAI-/0/1748730290061/scale_surge_logo?e=1755734400&v=beta&t=lzZJWuPBfsgegyEQvdo8q-4UGdIlIfdRpTFbSJXIZpU",
+      links: [
+        {
+          title: "Website",
+          icon: <Airplay className="h-4 w-4" />,
+          href: "https://www.scalesurge.tech/",
+        },
+      ],
+    },
+    {
+      title: "Job Shot",
+      dates: "May 7th - 28th, 2025",
+      location: "Calgary, Alberta",
+      description:
+        "Fullstack application for contractors to find jobs and manage their profiles. Built with Next.js, TypeScript, and Supabase. Unfortunately, the project was not completed due clinet not paying for the project.",
+      image:
+        "https://storage.googleapis.com/msgsndr/a2QybhLDs1T9v5eC0Z0z/media/668310d6811a7e3b961e73e3.png",
+      links: [],
+    },
+
+    {
+      title: "Career Boost",
+      dates: "January 18th - 25th, 2025",
+      location: "Remote",
+      description:
+        "lead a team of developers to create a platform providing personalized career advice and job recommendations using AI. The platform analyzes user profiles and preferences to suggest tailored career paths and opportunities. Unfortunately, the project was not completed due to team members not being able to complete their tasks.",
+      image: "/boost.jpg",
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Sajjadalgburi/career-boost-ai",
+        },
+      ],
+    },
+    {
+      title: "Promptopia",
+      dates: "July 25th - August 12th, 2024",
+      location: "Toronto, Ontario",
+      description:
+        "A platform for discovering and sharing AI prompts, enabling users to enhance their AI interactions. Built with Next.js, TypeScript, MongoDB, and serverless functions.",
+      image: "/promptopia.svg",
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Sajjadalgburi/promptopia",
+        },
+      ],
+    },
+    {
+      title: "Code Threads",
+      dates: "September 10th - 25th, 2024",
+      location: "Remote",
+      description:
+        "Took insporation from instagram's newly released Threads app, and created a similar platform for sharing code snippets. Users can post code snippets, comment, and like posts.",
+      image: "/code-threads.jpg",
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Sajjadalgburi/code_threads",
+        },
+      ],
+    },
+    {
+      title: "Cool Games",
+      dates: "May 8th - June 25th, 2024",
+      location: "Toronto, Ontario",
+      description:
+        "First fullstack project i built. It's a platform for discovering and sharing games. Users can post games, comment, and like posts. Built with Vite, React, Javascript, and MongoDB, Express.",
+      image: "/cool-games.jpg",
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Sajjadalgburi/Cool-Games",
+        },
+      ],
+    },
+    {
+      title: "Social Network (Backend)",
+      dates: "November 23rd - 25th, 2018",
+      location: "Toronto, Ontario",
+      description:
+        "Developed a backend for a social network platform using Node.js and Express. The backend supports user authentication, post creation, and comment functionality.",
+      image: "/network.jpg",
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Sajjadalgburi/Social-Network-API",
+        },
+      ],
+    },
+    {
+      title: "Book Search Engine",
+      dates: "April 20th - 28th, 2024",
+      location: "Toronto, Ontario",
+      description:
+        "Built a book search engine for my bootcamp project. The engine allows users to search for books by title, author, or ISBN, and provides detailed information about each book.",
+      image: "/book.png",
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Sajjadalgburi/Book-Search-Engine",
+        },
+      ],
+    },
+    {
+      title: "E-Commerce Platform (Backend)",
+      dates: "Feb 21st - 27th, 2024",
+      location: "Toronto, Ontario",
+      description:
+        "Developed a backend for an e-commerce platform using Node.js and Express. The backend supports product management, user authentication, and order processing.",
+      image: "/e-commerce.png",
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Sajjadalgburi/E-commerce-Back-End",
+        },
+      ],
     },
   ],
 } as const;
