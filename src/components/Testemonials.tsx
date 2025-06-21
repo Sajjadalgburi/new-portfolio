@@ -31,6 +31,13 @@ const reviews = [
     img: "https://avatar.vercel.sh/john",
   },
   {
+    name: "Ahmed Choudhry",
+    username: "@ahmed-choudhry",
+    body: "Sajjad built an incredibly useful tool with Outreach AI that made my job outreach process faster and more effective. His work showed strong technical skill and a clear focus on user experience.",
+    img: "https://media.licdn.com/dms/image/v2/D4E03AQHilO7aB83ETA/profile-displayphoto-shrink_200_200/B4EZbxCm0UHMAY-/0/1747800714803?e=1755734400&v=beta&t=FzbC3tckqbUaCYGArewuD9mLz567ZKUbFdXQMm1yUrg",
+    link: "https://www.linkedin.com/in/ahmed-choudhry/", // Added link to LinkedIn profile
+  },
+  {
     name: "Ibrahim Dobashi",
     username: "@ibrahim-dobashi",
     body: "Sajjad is one of the best developers I know. I've had the pleasure of working with him on several projects, and he has always impressed me with his skills and dedication. You'd be lucky to have him on your team.",
