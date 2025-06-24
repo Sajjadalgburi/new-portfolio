@@ -8,7 +8,7 @@ const reviews = [
     name: "Bashiri Smith",
     username: "@bashiri-smith",
     body: "Sajjad is truly a talented and hardworking engineer. I've spent time mentoring him and there was never a single task or concept he even so much as hesitated to figure out. He would be a great asset to any engineering team.",
-    img: "https://media.licdn.com/dms/image/v2/D5603AQH-nuxc9-s5Zg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1693930858553?e=1755734400&v=beta&t=T_92Z97rfEAJvKnS-Tyhu7PCKRx3CjcnNOibJ_tLPVM",
+    img: "/reviews/bashiri.jpeg",
     link: "https://www.linkedin.com/in/bashiri-smith/", // Added link to LinkedIn profile
   },
   {
@@ -21,7 +21,7 @@ const reviews = [
     name: "Jay Patel",
     username: "@jay-patel-30606a267",
     body: "Thanks to OutreachAI (outreachai.app), I can efficiently apply to numerous jobs with personalized applications. Their cover letter generator perfectly aligns job listings with my resume details, creating tailored cover letters every time. Not to mention, their outreach message feature which has helped me alot as well!. I highly recommend this tool. Special thanks to Sajjad Algburi, the impressive solo developer behind this game-changing app.",
-    img: "https://media.licdn.com/dms/image/v2/D4E03AQEqi5qhgUJ7Xg/profile-displayphoto-shrink_200_200/B4EZXDtTDKHgAY-/0/1742745186818?e=1755734400&v=beta&t=Y07M_xHhgFpicskOzF3Xutt_-qbRSw2WAnfUnCNe0l8",
+    img: "/reviews/jay.jpeg",
     link: "https://www.linkedin.com/in/jay-patel-30606a267/", // Added link to LinkedIn profile
   },
   {
@@ -34,14 +34,14 @@ const reviews = [
     name: "Ahmed Choudhry",
     username: "@ahmed-choudhry",
     body: "Sajjad built an incredibly useful tool with Outreach AI that made my job outreach process faster and more effective. His work showed strong technical skill and a clear focus on user experience.",
-    img: "https://media.licdn.com/dms/image/v2/D4E03AQHilO7aB83ETA/profile-displayphoto-shrink_200_200/B4EZbxCm0UHMAY-/0/1747800714803?e=1755734400&v=beta&t=FzbC3tckqbUaCYGArewuD9mLz567ZKUbFdXQMm1yUrg",
+    img: "/reviews/ahmed.jpeg",
     link: "https://www.linkedin.com/in/ahmed-choudhry/", // Added link to LinkedIn profile
   },
   {
     name: "Ibrahim Dobashi",
     username: "@ibrahim-dobashi",
     body: "Sajjad is one of the best developers I know. I've had the pleasure of working with him on several projects, and he has always impressed me with his skills and dedication. You'd be lucky to have him on your team.",
-    img: "https://media.licdn.com/dms/image/v2/D5603AQG6dzZmjRGvsQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719029308431?e=1755734400&v=beta&t=TDqqI8jnxWdhvacOYEa21NKcLtQ0G6I8dbsA_TzMzjU",
+    img: "/reviews/ibrahim.jpeg",
     link: "https://www.linkedin.com/in/ibrahim-dobashi/", // Added link to LinkedIn profile
   },
 ];
