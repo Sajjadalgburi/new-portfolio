@@ -57,8 +57,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Software Engineer",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/D4E0BAQE_VKOVODIP8g/company-logo_200_200/company-logo_200_200/0/1723912031225?e=1755734400&v=beta&t=MRhzxjsrY8_t2ZnuG402_EkEYYrZXBPIee9GQo3WXuY",
+      logoUrl: "/work/codebender-ai.jpeg",
       start: "Jan 2025",
       end: "June 2025",
       description:
@@ -70,8 +69,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Full Stack Engineer",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/D560BAQE9CkTcrCsOPw/company-logo_100_100/B56ZYH._XrGoAQ-/0/1743890675484/outreachai_app_logo?e=1755734400&v=beta&t=reQP1jHfgc61mZfWamRRO5IRbFVbLw7vfiaEo-SBTKg",
+      logoUrl: "/work/outreachai_app_logo.jpeg",
       start: "Aug 2024",
       end: "Jan 2025",
       description:
@@ -83,8 +81,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Frontend Engineer",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_200_200/company-logo_200_200/0/1727104517379/upwork_logo?e=1755734400&v=beta&t=6vh0B56UtknUUrqhDpCfJ9vg6hKgRru4iBFK7Qu5LaE",
+      logoUrl: "/work/upwork_logo.jpeg",
       start: "Dec 2023",
       end: "Aug 2024",
       description:
@@ -96,8 +93,7 @@ export const DATA = {
       school: "University of Toronto - Bootcamp",
       href: "https://www.utoronto.ca/",
       degree: "Certificate",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/C4D0BAQHX-foiyEDxpw/company-logo_200_200/company-logo_200_200/0/1639421285702/university_of_toronto_logo?e=1755734400&v=beta&t=rWXrKTU6udfTe8hvVsqlJcV-3IpDRlcPoXRAwwB9WFE",
+      logoUrl: "/education/university_of_toronto_logo.jpeg",
       start: "Nov 2023",
       end: "May 2024",
     },
@@ -108,8 +104,7 @@ export const DATA = {
       credUrl:
         "https://static.frontendmasters.com/ud/c/3c1904eaa5/ZfBjFwyWWj/practical-python.pdf",
       name: "Practical Guide to Python",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/C4D0BAQEjPhvpXpXOHw/company-logo_200_200/company-logo_200_200/0/1631336133392?e=1755734400&v=beta&t=yAA2B3t4o0YWghztGbfhjPImwDrncBgDGOHjqzRAIAU",
+      logoUrl: "/certifications/front_end_masters.jpeg",
       issued: "April 2025",
     },
     {
@@ -117,8 +112,7 @@ export const DATA = {
       credUrl:
         "https://static.frontendmasters.com/ud/c/3c1904eaa5/fpKAkoKlbq/testing.pdf",
       name: "Testing Fundamentals",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/C4D0BAQEjPhvpXpXOHw/company-logo_200_200/company-logo_200_200/0/1631336133392?e=1755734400&v=beta&t=yAA2B3t4o0YWghztGbfhjPImwDrncBgDGOHjqzRAIAU",
+      logoUrl: "/certifications/front_end_masters.jpeg",
       issued: "March 2025",
     },
     {
@@ -126,12 +120,36 @@ export const DATA = {
       credUrl:
         "https://www.apollographql.com/tutorials/certifications/39d39aaa-8149-4c1f-9924-0317e7a26698",
       name: "Graph Developer - Associate",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/D4E0BAQEGZMLBEs1-xg/company-logo_200_200/company-logo_200_200/0/1696614349853/apollo_graphql_logo?e=1755734400&v=beta&t=mrSqcHuxN-I5SevvWly56-mjyeYTHg9LYhoEEt9IJCY",
+      logoUrl: "/certifications/apollo_graphql_logo.jpeg",
       issued: "Feb 2025",
     },
   ],
   projects: [
+    {
+      title: "Funnel Automation - Dashboard",
+      href: "https://www.loom.com/share/be12ed7b2b6f40d28e81fecbfeea93fa?sid=4fa3168c-4f2f-4a33-8ea4-25fb61985656",
+      dates: "June 2025",
+      active: true,
+      description:
+        "An automation built for a client, to visualize business funnel—from views to closed deals. I showcase various analytics, including regional performance, video stats, and AI insights that help identify bottlenecks in the buisness and opportunities for improvement.",
+      technologies: [
+        "n8n",
+        "TypeScript",
+        "React",
+        "Supabase",
+        "Cal.com",
+        "Framer Motion",
+      ],
+      links: [
+        {
+          type: "Video",
+          href: "https://www.loom.com/share/be12ed7b2b6f40d28e81fecbfeea93fa?sid=4fa3168c-4f2f-4a33-8ea4-25fb61985656",
+          icon: <Video className="size-3" />,
+        },
+      ],
+      image: "/dashboard.png",
+      video: "",
+    },
     {
       title: "AI Receptionist",
       href: "https://www.loom.com/share/6e9a3168f21649b6b5bdc368ef5aefea?sid=f0c6a582-ae92-44f1-8bf0-f045ecedf8cf",
@@ -287,8 +305,7 @@ export const DATA = {
       location: "United States, Illinois",
       description:
         "Developed an SEO friendly website for an LLC company using Next.js, TypeScript, and TailwindCSS. The project focused on enhancing the company's online presence and improving search engine visibility.",
-      image:
-        "https://media.licdn.com/dms/image/v2/D560BAQEI75J4fhEjkQ/company-logo_200_200/B56Zcocp5zGQAI-/0/1748730290061/scale_surge_logo?e=1755734400&v=beta&t=lzZJWuPBfsgegyEQvdo8q-4UGdIlIfdRpTFbSJXIZpU",
+      image: "scale_surge_logo.jpeg",
       links: [
         {
           title: "Website",
