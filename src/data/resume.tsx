@@ -52,6 +52,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Magic Hour",
+      href: "https://www.magichour.ai/",
+      badges: [],
+      location: "San Francisco, CA",
+      title: "Software Engineer",
+      logoUrl: "/work/magichour1_logo.jpeg",
+      start: "June 2025",
+      end: "Present",
+      description:
+        "Developing the best AI video generation platform for creators.",
+    },
+    {
       company: "Codebender AI",
       href: "https://www.codebender.ai/",
       badges: [],
