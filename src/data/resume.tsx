@@ -54,13 +54,13 @@ export const DATA = {
       company: "Magic Hour",
       href: "https://www.magichour.ai/",
       badges: [],
-      location: "San Francisco, CA",
+      location: "San Francisco Bay Area · Remote",
       title: "Software Engineer",
       logoUrl: "/work/magichour1_logo.jpeg",
       start: "June 2025",
       end: "Present",
       description:
-        "Developing the best AI video generation platform for creators.",
+        "Building Magic Hour, an AI video and image platform used by over 5 million users worldwide. Contributing to 100+ tools for creators, including text to video, image to video, face swap, and AI image generation, on a product backed by Y Combinator and Eight Capital.",
     },
     {
       company: "Codebender AI",
