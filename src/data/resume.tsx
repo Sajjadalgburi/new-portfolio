@@ -7,8 +7,8 @@ export const DATA = {
   name: "Sajjad Algburi",
   initials: "SA",
   url: "https://sajjadalgburi.dev",
-  location: "Calgary, AB",
-  locationLink: "https://www.google.com/maps/place/calgary",
+  location: "Toronto, ON",
+  locationLink: "https://www.google.com/maps/place/toronto",
   description:
     "Full Stack Engineer passionate about building impactful products and helping others. Experienced in modern web technologies and AI integrations.",
   summary:
