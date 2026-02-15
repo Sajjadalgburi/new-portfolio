@@ -10,7 +10,7 @@ export const DATA = {
   location: "Toronto, ON",
   locationLink: "https://www.google.com/maps/place/toronto",
   description:
-    "Full Stack Engineer passionate about building impactful products and helping others. Experienced in modern web technologies and AI integrations.",
+    "Full Stack Engineer passionate about building impactful products and empowering others. Experienced in modern web technologies and AI integration.",
   summary:
     "After enrolling in a coding bootcamp in 2023, I connected with talented peers and built a range of exciting projects. My journey has been driven by curiosity, collaboration, and a desire to solve real-world problems with technology.",
   avatarUrl: "/me-2.png",
