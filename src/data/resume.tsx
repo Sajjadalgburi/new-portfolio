@@ -48,7 +48,6 @@ export const DATA = {
       },
     },
   },
-
   work: [
     {
       company: "Magic Hour",
@@ -60,7 +59,7 @@ export const DATA = {
       start: "June 2025",
       end: "Present",
       description:
-        "Building Magic Hour, an AI video and image platform used by over 5 million users worldwide. Contributing to 100+ tools for creators, including text to video, image to video, face swap, and AI image generation, on a product backed by Y Combinator and Eight Capital.",
+        "Building Magic Hour, an AI video and image platform used by over 5 million users worldwide. Contributing to 100+ tools for creators, including text to video, image to video, face swap, and AI image generation, on a platform backed by Y Combinator and Eight Capital.",
     },
     {
       company: "Codebender AI",
